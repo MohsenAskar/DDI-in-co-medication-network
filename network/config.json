@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Mohsen Askar"
+  },
+  "text": {
+    "more": "The network represents the severe DDIs found in the co-medication network. Bigger nodes indicate a higher number of users. Nodes with < 5 users are excluded. Edges with < 5 users are excluded to prevent patient identification. Some nodes may present without edges because of the exclusion criteria. Different colors indicate different anatomical groups. see Anatomical groups colours.pdf. The Name of the drug appears by pointing at the node. Clicking on the node reveals its ego-network",
+    "intro": "",
+    "title": "Severe DDI network"
+  },
+  "legend": {
+    "edgeLabel": "Severe interaction",
+    "colorLabel": "Anatomical group",
+    "nodeLabel": "Substence name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 2,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 10,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
